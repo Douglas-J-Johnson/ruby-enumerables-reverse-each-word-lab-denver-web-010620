@@ -6,7 +6,7 @@ def reverse_each_word(sentence)
   #  word.reverse!
   #end
 
-  word_array.collect{|word| word.reverse}
+  word_array.collect{|word| word.reverse!}
 
   return_sentence = word_array.join(' ')
 
